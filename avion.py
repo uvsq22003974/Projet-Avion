@@ -1,4 +1,3 @@
-avion.py
 #########
 # Groupe MPCI 3
 # Antoine Rios Campo
@@ -12,7 +11,8 @@ avion.py
 ######
 import tkinter as tk
 
-main = tk.TK()
+main = tk.Tk()
+canvas = tk.Canvas(main, bg='green', height=1400, width=630)
 
 main.mainloop
 
