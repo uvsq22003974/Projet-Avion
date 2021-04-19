@@ -10,4 +10,9 @@ avion.py
 
 # https://github.com/uvsq21918039/Projet-Avion
 ######
-import tkinter
+import tkinter as tk
+
+main = tk.TK()
+
+main.mainloop
+
