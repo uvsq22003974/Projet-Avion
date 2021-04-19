@@ -11,8 +11,9 @@
 ######
 import tkinter as tk
 
-main = tk.Tk()
-canvas = tk.Canvas(main, bg='green', height=1400, width=630)
+racine = tk.Tk()
+canvas = tk.Canvas(racine, bg='green', height=1400, width=630)
+canvas.grid()
 
-main.mainloop
+racine.mainloop
 
